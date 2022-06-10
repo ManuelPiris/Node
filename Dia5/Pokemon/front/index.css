@@ -1,0 +1,54 @@
+body {
+    min-height: 50vh;
+}
+#form-cont{
+    width: 100%;
+}
+
+#background img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+form{
+    width: 60%;
+    height: 150px;
+}
+
+#pokemon-cont{
+    flex-wrap: wrap !important;
+}
+#background-pokemon{
+    position: absolute;
+    background-image: url('/images/maxresdefault-28-1.jpg');
+    background-position: top center;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.pokemon{
+    position: relative;
+    min-height: 300px;
+    width: 600px;
+}
+.pokemon img{
+    z-index: 2;
+}
+.pokemon p, #pokemon p{
+    font-size: 18px;
+    color: #fff;
+    z-index: 2;
+}
+table, th, td {
+    border:1px solid rgb(255, 0, 0);
+    color: #fff;
+    z-index: 2;
+    font-size: 18px;
+  }
+
